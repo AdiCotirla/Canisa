@@ -1,0 +1,92 @@
+.Navbar
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-image: url(../assets/1081535.jpg) ;
+    background-size:cover;
+    background-position: 70% 30%;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+}
+.phone
+{
+    margin: 0;
+    padding-right: 5px;
+    height: 100%;
+}
+.Navbar-contact > p
+{
+    margin: 0;
+    transition: 0.4s;
+    font-weight: bolder;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar-contact
+{
+    margin-top: 10px;
+    width: 50vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 100px;
+    height: 4vh;
+}
+.Navbar-links,
+.Navbar-links-sticky
+{
+    display: flex;
+    width: 60vw;
+    height: 15vh;
+    font-size: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.link-navbar
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+.link-navbar:hover,
+.Navbar-contact > p:hover
+{
+    color:#ffc400;
+}
+.link-navbar > img
+{
+    height: 120px;
+}
+
+.sticky
+{
+    position: fixed;
+}
+.navbar-sticky
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 5vh;
+    visibility: visible;
+    position: fixed;
+    color: rgba(255, 255, 255, 0);
+    background: linear-gradient(18.83deg, #7e5844 37.21%, #69422d 100%)
+}
+.visible
+{
+    background-color: rgba(165, 42, 42, 0);
+    visibility: hidden;
+}
