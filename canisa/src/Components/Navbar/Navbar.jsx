@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect} from 'react'
+import React, { Component} from 'react'
 import {
   BrowserRouter as Router,
   Routes,
@@ -32,23 +32,23 @@ export default class Navbar extends Component {
       
       <div className='Navbar' id='navbar'>
         <div className='Navbar-contact'>
-          <p><FaPhoneAlt className='phone'/> : 0725376564</p>
+          <p cl><FaPhoneAlt className='phone '/> : 0725376564</p>
         </div>
         <div className='Navbar-links'>
         <Link to= "/" className='link-navbar'><img src={logo}></img></Link>
-        <Link to= "/"className='link-navbar'>Acasa</Link>
-        <Link to= "/Monte"className='link-navbar'>Monte</Link>
-        <Link to= "/Antrenamente"className='link-navbar'>Antrenamente</Link>
-        <Link to= "/Despre"className='link-navbar'>Despre noi</Link>
-        <Link to= "/Contact"className='link-navbar'>Contact</Link>
+        <Link to= "/"className='link-navbar click'><></>Acasa</Link>
+        <Link to= "/Monte"className='link-navbar click'>Monte</Link>
+        <Link to= "/Antrenamente"className='link-navbar click'>Antrenamente</Link>
+        <Link to= "/Despre"className='link-navbar click'>Despre noi</Link>
+        <Link to= "/Contact"className='link-navbar click'>Contact</Link>
         </div>
         <div id="navbar-sticky" className='navbar-sticky visible'>
         <div className='Navbar-links-sticky'>
-        <Link to= "/"className='link-navbar'>Acasa</Link>
-        <Link to= "/Monte"className='link-navbar'>Monte</Link>
-        <Link to= "/Antrenamente"className='link-navbar'>Antrenamente</Link>
-        <Link to= "/Despre"className='link-navbar'>Despre noi</Link>
-        <Link to= "/Contact"className='link-navbar'>Contact</Link>
+        <Link to= "/"className='link-navbar click'>Acasa</Link>
+        <Link to= "/Monte"className='link-navbar click'>Monte</Link>
+        <Link to= "/Antrenamente"className='link-navbar click'>Antrenamente</Link>
+        <Link to= "/Despre"className='link-navbar click'>Despre noi</Link>
+        <Link to= "/Contact"className='link-navbar click'>Contact</Link>
         </div>
         </div>
       </div>

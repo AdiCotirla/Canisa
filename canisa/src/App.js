@@ -6,6 +6,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Acasa from './Pages/Acasa';
 
 function App() {
   
@@ -13,6 +14,9 @@ function App() {
     <Router>
     <div className="App">
       <Navbar/>
+      <Routes>
+      <Route index element={<><Acasa/></>} />
+      </Routes>
     </div>
     </Router>
   );

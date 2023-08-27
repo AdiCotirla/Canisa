@@ -5,8 +5,8 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 30vh;
-    background-image: url(../assets/1081535.jpg) ;
+    height: 25vh;
+    background-image: url(../assets/rottweiler-7564116_1280.webp) ;
     background-size:cover;
     background-position: 70% 30%;
     background-repeat: no-repeat;
@@ -51,16 +51,33 @@
 }
 .link-navbar
 {
+    position: relative;
     text-decoration: none;
     color: white;
     font-weight: bolder;
+     display: inline-block;
     transition: 0.4s;
 }
-.link-navbar:hover,
-.Navbar-contact > p:hover
+.click::after
 {
-    color:#ffc400;
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    background-color:#ffc400;
+    left: 0;
+    bottom: -10%;
+    border-radius: 25px;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
 }
+.click:hover::after
+{
+     transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .link-navbar > img
 {
     height: 120px;
@@ -83,10 +100,12 @@
     visibility: visible;
     position: fixed;
     color: rgba(255, 255, 255, 0);
-    background: linear-gradient(18.83deg, #7e5844 37.21%, #69422d 100%)
+    background: linear-gradient(18.83deg, #96502b 50.21%, #69422d 100%)
 }
 .visible
 {
     background-color: rgba(165, 42, 42, 0);
     visibility: hidden;
+    position: absolute;
+    top: -100%;
 }
