@@ -1,4 +1,4 @@
-import React, { Component} from 'react'
+import React, { Component, useEffect, useState} from 'react'
 import {
   BrowserRouter as Router,
   Routes,
@@ -13,9 +13,30 @@ export default class Navbar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      scrollTop: 0
+      scrollTop: 0,
     };}
-  render() {
+    TabOn(width)
+    {
+      var navbar = document.getElementById("navbar")
+      if(width > 1200)
+      {
+        navbar.classList.add("tab-on")
+        return
+      }
+      else if (width < 1200)
+      {
+       navbar.classList.remove("tab-on")
+       navbar.classList.add("tab-off")
+       return
+      }
+    }
+    componentDidMount()
+    {
+      this.TabOn(window.innerWidth)
+    }
+    render() {
+
+    
     window.onscroll = function(){
       const top = window.scrollY
       const navbar = document.getElementById("navbar-sticky")

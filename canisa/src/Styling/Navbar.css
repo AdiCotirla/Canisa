@@ -12,6 +12,14 @@
     background-repeat: no-repeat;
     text-transform: uppercase;
 }
+.tab-off
+{
+    display: none;
+}
+.tab-on
+{
+    display: flex;
+}
 .phone
 {
     margin: 0;
@@ -89,6 +97,7 @@
 }
 .navbar-sticky
 {
+    z-index: 9999;
     margin: 0;
     padding: 0;
     display: flex;

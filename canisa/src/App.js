@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
       <Routes>
       <Route index element={<><Acasa/></>} />
       </Routes>
