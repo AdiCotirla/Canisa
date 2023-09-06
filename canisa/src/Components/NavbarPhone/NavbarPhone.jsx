@@ -48,8 +48,10 @@ export default function NavbarPhone() {
         <div className={click ? 'blur on' : "blur off"}></div>
         <div className='meniu-navbar'>
         <Link to='/' className='navbar-logo-sticky' onClick={closeMobileMenu}>
+        <span className='trapezoid-logo'></span>
         </Link>
         <div className='meniu-icon-sticky' onClick={handleClick}>
+          <span className='trapezoid'></span>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
         </div>

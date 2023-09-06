@@ -6,14 +6,11 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import NavbarPhone from '../Components/NavbarPhone/NavbarPhone';
-import Navbar from '../Components/Navbar/Navbar';
+
 
 export default function Acasa() {
   return (
     <div className='acasa'>
-      <Navbar/>
-      <NavbarPhone/>
        <div className='article-container'>
         <h1 className='must-title'>Must Read <span className='span-title'/></h1>
         <div className='articles'>
@@ -39,13 +36,27 @@ export default function Acasa() {
             </div>
         </div>
        </div>
+      <div className='despre-container'>
+        <div className='despre-main'>
+          <p className='description-main'>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever. Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+
+
+
+
        <div className='find-container'>
         <div className='find-info-container'>
           <h1 className='puppy-title'>Looking for a puppy?</h1>
-        <p className='description'>Why dont you take a look into our new born pups. I'm sure that you will find the one that will melt your heart.</p>
+        <p className='description'>Why dont you take a look into our new born pups. They can also improve your physical and <br/>mental health! I'm sure that you will find the one that you love</p>
         <Link to="/"className='link-button'><button className='button-class'>FIND A PUPPY</button></Link>
        </div>
+       <div className='imagine-find'></div>
        </div>
+
+       
     </div>
   )
 }
