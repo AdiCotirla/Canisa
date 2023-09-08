@@ -5,4 +5,5 @@
   align-items: center;
   text-align: center;
   width: 100vw;
+  min-height: 100vh;
 }

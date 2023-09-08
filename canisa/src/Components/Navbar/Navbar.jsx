@@ -49,6 +49,19 @@ export default class Navbar extends Component {
         navbar.classList.remove("visible")
       }
     }
+
+    // window.onscroll = function(){
+    //   const top = window.scrollY
+    //   const navbar = document.getElementById("navbar-sticky")
+    //   if(top > 400)
+    //   { 
+    //     navbar.style = { width :"100vw", top : "0"}
+    //   }
+    //   else if (top <= 200)
+    //   {
+    //     navbar.classList.remove("full")
+    //   }
+    // }
     return (
       
       <div className='Navbar' id='navbar'>
