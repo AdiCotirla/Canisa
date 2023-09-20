@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Canisa/precache-manifest.14ec49337fc07802ae4e744639a58d52.js"
+  "/Canisa/precache-manifest.ad76f415387170cb4bc86f4b89ecd1cd.js"
 );
 
 workbox.clientsClaim();
