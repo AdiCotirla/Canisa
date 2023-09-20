@@ -17,7 +17,7 @@ import Contact from './Pages/Contact';
 function App() {
  
   return (
-    <Router basename='Canisa'>
+    <Router basename='/Canisa'>
       <ScrollToTop/>
     <div className="App">
       <Navbar/>
