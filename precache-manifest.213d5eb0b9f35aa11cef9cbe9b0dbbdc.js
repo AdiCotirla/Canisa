@@ -40,16 +40,16 @@ self.__precacheManifest = [
     "url": "/Canisa/static/media/679ef5c0855c5caf4f68c50d92e0d457.b0d341c9.jpg"
   },
   {
-    "revision": "964604fa65bd0a5ee27ecb6289f9f963",
-    "url": "/Canisa/static/media/273933819_147470744343347_8122590503467748651_n.964604fa.jpg"
-  },
-  {
     "revision": "ed060d0d853d1409f0f5f0d4813cf53a",
     "url": "/Canisa/static/media/train.ed060d0d.jpg"
   },
   {
     "revision": "dc9039af5402f65044720f4f7d471eda",
     "url": "/Canisa/static/media/descend.dc9039af.jpg"
+  },
+  {
+    "revision": "964604fa65bd0a5ee27ecb6289f9f963",
+    "url": "/Canisa/static/media/273933819_147470744343347_8122590503467748651_n.964604fa.jpg"
   },
   {
     "revision": "6fdabac9fa5f0eeaab5f4b00534778b9",
