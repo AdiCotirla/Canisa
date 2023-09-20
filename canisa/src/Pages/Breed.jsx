@@ -13,17 +13,17 @@ export default function Breed() {
                             return(
                                 <div className='monte-info'>
                                     <div className='parinte-container'>
-                                            <h1 className='nume-parinti'>{parinte.numeTata}</h1>
                                             <img src={parinte.imgTata} alt=""  className='img-parinti'/>
+                                            <h1 className='nume-parinti'>{parinte.numeTata}</h1>
                                     </div>
                                     <div className='parinte-container'>
-                                            <h1 className='nume-parinti'>{parinte.numeMama}</h1>
                                             <img src={parinte.imgMama} alt=""  className='img-parinti'/>
+                                            <h1 className='nume-parinti'>{parinte.numeMama}</h1>
                                     </div>    
                                 </div>
                             )
                         })}
-                        <h1 className='puppies-presentation'>PUPPIES : </h1>
+                        <h1 className='puppies-presentation'>CATELUSI : </h1>
                         <div className='pui-container'>
                         {monte.pui && monte.pui.map(pui =>{
                         return(

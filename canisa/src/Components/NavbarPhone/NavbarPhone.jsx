@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState} from 'react';
 
 
 import {
@@ -20,7 +20,7 @@ export default function NavbarPhone() {
      
 
     function ShowMenu() {
-       if(click == true)
+       if(click === true)
        {
         document.body.style.overflow = "hidden"
        }

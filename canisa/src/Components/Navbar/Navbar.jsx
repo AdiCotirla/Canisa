@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState} from 'react'
+import React, { Component} from 'react'
 import {
   BrowserRouter as Router,
   Routes,
@@ -66,7 +66,7 @@ export default class Navbar extends Component {
       
       <div className='Navbar' id='navbar'>
         <div className='Navbar-contact'>
-          <p cl><FaPhoneAlt className='phone '/> : 0725376564</p>
+          <p><FaPhoneAlt className='phone '/> : 0725376564</p>
         </div>
         <div className='Navbar-links'>
         <Link to= "/" className='link-navbar'><img src={logo}></img></Link>
