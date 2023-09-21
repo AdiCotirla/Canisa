@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3c233380ab64d15be2d2",
-    "url": "/Canisa/static/css/main.4c6c215e.chunk.css"
+    "revision": "17c5e45b08ace9e32fa7",
+    "url": "/Canisa/static/css/main.bd1f70b4.chunk.css"
   },
   {
-    "revision": "3c233380ab64d15be2d2",
-    "url": "/Canisa/static/js/main.3c233380.chunk.js"
+    "revision": "17c5e45b08ace9e32fa7",
+    "url": "/Canisa/static/js/main.17c5e45b.chunk.js"
   },
   {
     "revision": "a55ae8da76b6c0c45aec",
@@ -36,10 +36,6 @@ self.__precacheManifest = [
     "url": "/Canisa/static/media/paw.068e2357.png"
   },
   {
-    "revision": "b0d341c93d31b2056a3b24b50b5ffbf8",
-    "url": "/Canisa/static/media/679ef5c0855c5caf4f68c50d92e0d457.b0d341c9.jpg"
-  },
-  {
     "revision": "ed060d0d853d1409f0f5f0d4813cf53a",
     "url": "/Canisa/static/media/train.ed060d0d.jpg"
   },
@@ -48,16 +44,20 @@ self.__precacheManifest = [
     "url": "/Canisa/static/media/descend.dc9039af.jpg"
   },
   {
+    "revision": "b0d341c93d31b2056a3b24b50b5ffbf8",
+    "url": "/Canisa/static/media/679ef5c0855c5caf4f68c50d92e0d457.b0d341c9.jpg"
+  },
+  {
     "revision": "964604fa65bd0a5ee27ecb6289f9f963",
     "url": "/Canisa/static/media/273933819_147470744343347_8122590503467748651_n.964604fa.jpg"
   },
   {
-    "revision": "6fdabac9fa5f0eeaab5f4b00534778b9",
-    "url": "/Canisa/static/media/catei.6fdabac9.png"
-  },
-  {
     "revision": "92e9fbfbe48b86058719b7880d515c42",
     "url": "/Canisa/static/media/back.92e9fbfb.jpg"
+  },
+  {
+    "revision": "6fdabac9fa5f0eeaab5f4b00534778b9",
+    "url": "/Canisa/static/media/catei.6fdabac9.png"
   },
   {
     "revision": "3d9327b87270ed417f60292edf653093",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/Canisa/static/media/map.18f4a9a7.jpg"
   },
   {
-    "revision": "db75b2493b047a2da447db34be9e0cdb",
+    "revision": "ee61c9cf645fccd700972b325cf23368",
     "url": "/Canisa/index.html"
   }
 ];

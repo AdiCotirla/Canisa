@@ -1,7 +1,7 @@
 {
-  "main.css": "/Canisa/static/css/main.4c6c215e.chunk.css",
-  "main.js": "/Canisa/static/js/main.3c233380.chunk.js",
-  "main.js.map": "/Canisa/static/js/main.3c233380.chunk.js.map",
+  "main.css": "/Canisa/static/css/main.bd1f70b4.chunk.css",
+  "main.js": "/Canisa/static/js/main.17c5e45b.chunk.js",
+  "main.js.map": "/Canisa/static/js/main.17c5e45b.chunk.js.map",
   "static/js/1.a55ae8da.chunk.js": "/Canisa/static/js/1.a55ae8da.chunk.js",
   "static/js/1.a55ae8da.chunk.js.map": "/Canisa/static/js/1.a55ae8da.chunk.js.map",
   "static/js/2.46845d95.chunk.js": "/Canisa/static/js/2.46845d95.chunk.js",
@@ -11,11 +11,11 @@
   "static/media/aslan.jpg": "/Canisa/static/media/aslan.360799e4.jpg",
   "static/media/NavbarPhone.css": "/Canisa/static/media/paw.068e2357.png",
   "static/media/Navbar.css": "/Canisa/static/media/rottweiler-7564116_1280.1e51cbf6.webp",
-  "static/media/Acasa.css": "/Canisa/static/media/back.92e9fbfb.jpg",
+  "static/media/Acasa.css": "/Canisa/static/media/catei.6fdabac9.png",
   "static/media/Contact.css": "/Canisa/static/media/catei2.3d9327b8.png",
   "static/media/map.jpg": "/Canisa/static/media/map.18f4a9a7.jpg",
-  "static/css/main.4c6c215e.chunk.css.map": "/Canisa/static/css/main.4c6c215e.chunk.css.map",
+  "static/css/main.bd1f70b4.chunk.css.map": "/Canisa/static/css/main.bd1f70b4.chunk.css.map",
   "index.html": "/Canisa/index.html",
-  "precache-manifest.213d5eb0b9f35aa11cef9cbe9b0dbbdc.js": "/Canisa/precache-manifest.213d5eb0b9f35aa11cef9cbe9b0dbbdc.js",
+  "precache-manifest.f84b65cb6009632b50d122e4b4e30f19.js": "/Canisa/precache-manifest.f84b65cb6009632b50d122e4b4e30f19.js",
   "service-worker.js": "/Canisa/service-worker.js"
 }
