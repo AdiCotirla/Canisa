@@ -167,6 +167,8 @@
     .parinte-container
     {
         width: 70%;
+        height: 40vh;
+        margin-bottom: 25px;
     }
     .pui-container
     {

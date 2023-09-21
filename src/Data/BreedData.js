@@ -11,35 +11,41 @@ export const BreedData=[
         }],
         pui : [
             {
-               name : "aslan",
-               sex : "M",
+               name : "M : aslan",
+               price : "700$",
                imgPui : aslan
             },
             {
-                name : "aslan",
-                sex : "M",
-                imgPui : aslan
-             },{
-                name : "aslan",
-                sex : "M",
-                imgPui : aslan
-             },{
-                name : "aslan",
-                sex : "M",
-                imgPui : aslan
-             },{
-                name : "aslan",
-                sex : "M",
-                imgPui : aslan
-             },{
-                name : "aslan",
-                sex : "M",
-                imgPui : aslan
-             },{
-                name : "aslan",
-                sex : "M",
-                imgPui : aslan
-             },
+               name : "M : aslan",
+               price : "700$",
+               imgPui : aslan
+            },
+            {
+               name : "M : aslan",
+               price : "700$",
+               imgPui : aslan
+            },
+            {
+               name : "M : aslan",
+               price : "700$",
+               imgPui : aslan
+            },
+            {
+               name : "M : aslan",
+               price : "700$",
+               imgPui : aslan
+            },
+            {
+               name : "M : aslan",
+               price : "700$",
+               imgPui : aslan
+            },
+            {
+               name : "M : aslan",
+               price : "700$",
+               imgPui : aslan
+            },
+            
 
         ]
 },

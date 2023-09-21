@@ -30,7 +30,7 @@ export default function Breed() {
                             <div className='pui-individual'>
                                 <div className='details'>
                             <h2 className='pui-detail' >{pui.name}</h2>
-                            <span className='pui-detail'>{pui.sex}</span>
+                            <span className='pui-detail'>{pui.price}</span>
                             </div>
                             <div className='imgBx'>
                                 <img src={pui.imgPui} alt=""  className='img-pui'/>

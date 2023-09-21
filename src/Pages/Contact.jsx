@@ -7,7 +7,7 @@ export default function Contact() {
     <div className='contact-container'>
         <div className='butoane-container'>
         <a href="tel:+40725376564" className='link-contact'><h1 className='header'>SUNA-NE</h1></a>
-        <a href = "mailto: abc@example.com" className='link-contact'><h1 className='header'>Trimite un mail</h1></a>
+        <a href = "mailto: abc@example.com" className='link-contact'><h1 className='header'>TRIMITE-NE MAIL</h1></a>
         </div>
           <div className='map-container'>
           <iframe

@@ -44,7 +44,7 @@ export default function Acasa() {
         <div className='find-info-container'>
           <h1 className='puppy-title'>In cautarea unui catel ?</h1>
         <p className='description'>De ce nu te uiți la puii noștri nou-născuți? Te pot ajuta cu starea fizica cat <br/> si mentala! Sunt sigur ca ve-ti gasi unul pe plac!</p>
-        <Link to="/"className='link-button'><button className='button-class'>GASESTE UN PUI</button></Link>
+        <Link to="/Monte"className='link-button'><button className='button-class'>GASESTE UN PUI</button></Link>
        </div>
        <div className='imagine-find'></div>
        </div>
